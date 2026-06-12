@@ -1,4 +1,4 @@
-console.log("script.js est bien branché");
+sconsole.log("script.js est bien branché");
 const prenom = "Mamie";
 console.log("Bonjour"+ prenom);
 console.log(`Bonjour ${prenom} ,prête à coder ?`);
@@ -72,6 +72,7 @@ function fizzBuzzSenegal() {
        } 
     } 
  } 
+ fizzBuzzSenegal();
 function estPalindrome(mot) {
    let inverse = "" ;
    for (const lettre of mot) {
